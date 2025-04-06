@@ -1,0 +1,255 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 120px;
+    height: auto;
+    z-index: 2;
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    color: #b3b3b3;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.nav-text  {
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.user-nav {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 2;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.profile-img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.symbol {
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    width: 40px;
+    height: auto;
+    z-index: 2;
+}
+
+.show-label {
+    position: absolute;
+    top: 410px;
+    left: 110px;
+    font-size: 14px;
+    color: #fff;
+    z-index: 2;
+}
+
+.title {
+    position: absolute;
+    top: 430px;
+    left: 110px;
+    font-size: 100px;
+    font-weight: 900;
+    z-index: 2;
+}
+
+.play-btn, .more-info-btn {
+    position: absolute;
+    top: 550px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.play-btn {
+    left: 110px;
+    background-color: #fff;
+    color: #000;
+}
+
+.play-btn img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.more-info-btn {
+    left: 200px;
+    background-color: #6d6d6d;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.more-info-btn img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.add-btn {
+    position: absolute;
+    top: 550px;
+    right: 40px;
+    z-index: 2;
+}
+
+.add-btn img {
+    width: 30px;
+}
+
+.content-header {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.see-again {
+    color: #fff;
+    font-size: 14px;
+}
+
+.arrow-right {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-right img {
+    width: 20px;
+}
+
+.section {
+    position: relative;
+    padding: 20px 40px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    background-color: #000;
+}
+
+.section-title {
+    position: relative;
+    padding: 0 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.top-10 .rank-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+}
+
+.rank {
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.card-img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.footer {
+    position: relative;
+    padding: 40px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 12px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-service {
+    font-size: 14px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+}

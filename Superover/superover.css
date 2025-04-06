@@ -1,0 +1,94 @@
+img {
+    height: 99vh;
+    width: 99vw;
+}
+
+.logo {
+    height: 11vh;
+    width: 7vw;
+    margin-left: -767px;
+    margin-top: 32px;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    flex-direction: flex-start;
+    margin-left: -678px;
+
+}
+
+.parent {
+    margin-top: -520px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 80px;
+    margin-right: 310px;
+    column-gap: 20px;
+
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    column-gap: 20px;
+    margin-right: 81px;
+    align-content: center;
+    text-align: center;
+
+
+
+}
+
+.child {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #165491;
+    margin-left: 108px;
+}
+
+.ind {
+    padding-left: 214px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.child2 {
+    border: 1px solid black;
+    padding-left: 0px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 40px;
+    height: 50px;
+}
+
+.run {
+    padding-left: 217px;
+    padding-top: 0PX;
+    font-size: 50PX;
+    color: white;
+}
+
+.bat {
+    height: 71px;
+    width: 80px;
+    margin-left: 700px;
+    margin-top: 5px;
+    position: relative;
+}
+
+svg {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.retry {
+    height: 71px;
+    width: 77px;
+    
+}

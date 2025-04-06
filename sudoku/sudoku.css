@@ -1,0 +1,33 @@
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 200px;
+    column-gap: 10px;
+    margin-top: -189px;
+
+}
+
+.text{
+    font-size: 30px;
+    padding-left: 89px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    border: 1px solid black;
+    margin-right: 62px;
+}
+
+.box2 {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box3 {
+    border: 1px solid gray;
+    text-align: center;
+}
+.second box{
+    margin-right: 10px;
+}

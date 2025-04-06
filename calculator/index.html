@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="main">
+        <div class="display"></div>
+        <div class="button">C</div>
+        <div class="button">+/-</div>
+        <div class="button">%</div>
+        <div class="operator">+</div>
+        <div class="button">7</div>
+        <div class="button">8</div>
+        <div class="button">9</div>
+        <div class="operator">×</div>
+        <div class="button">4</div>
+        <div class="button">5</div>
+        <div class="button">6</div>
+        <div class="operator">-</div>
+        <div class="button">1</div>
+        <div class="button">2</div>
+        <div class="button">3</div>
+        <div class="operator">+</div>
+        <div class="button zero">0</div>
+        <div class="button">.</div>
+        <div class="operator">=</div>
+    </div>
+
+    <script>
+        let display = document.querySelector('.display');
+        let buttons = document.querySelectorAll('.button, .operator');
+        let input = '';
+
+        buttons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                let value = btn.textContent;
+                if (value === 'C') {
+                    input = '';
+                } else if (value === '=') {
+                    try {
+                        input = eval(input).toString();
+                    } catch {
+                        input = 'Error';
+                    }
+                } else if (value === '+/-') {
+                    input = input.startsWith('-') ? input.slice(1) : '-' + input;
+                } else if (value === '%') {
+                    input = (parseFloat(input) / 100).toString();
+                } else {
+                    input += value;
+                }
+                display.textContent = input || '0';
+            });
+        });
+    </script>
+</body>
+</html>

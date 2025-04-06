@@ -1,0 +1,99 @@
+.topbar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+
+}
+
+.second-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+#bk {
+    width: 100vw;
+    height: 55vh;
+}
+
+#cart {
+    margin-right: 4vw;
+}
+
+#logo {
+    margin-left: 2vw;
+}
+
+#imgtext {
+    position: absolute;
+    top: 12vh;
+    left: 7vw;
+}
+
+.fun {
+    margin-top: -5vh;
+    color: white;
+}
+
+.Books {
+    position: absolute;
+    top: 70vh;
+    left: 7vw;
+}
+
+.child3 {
+    display: grid;
+    grid-template-columns: 12vw 12vw 12vw 12vw 12vw 12vw;
+    column-gap: 3vw;
+}
+
+.book1 {
+    height: 30vh;
+    width: 10vw;
+}
+
+.book2 {
+    height: 30vh;
+    width: 18vw;
+}
+
+.author {
+    margin-top: -2vh;
+}
+
+.atc {
+    margin-top: -19px;
+    margin-left: 3vw;
+    border: 1px solid black;
+    width: 45px;
+    background-color: #6196ff;
+
+}
+
+.smallcart {
+    height: 10px;
+    width: 10px;
+
+
+}
+
+.child4 {
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw;
+    column-gap: 3vw;
+}
+
+.parent4 {
+    position: absolute;
+    top: 130vh;
+    left: 7vw;
+}
+
+.parent5 {
+    position: absolute;
+    top: 190vh;
+    left: 7vw;
+}
+.dis{
+    font-size: 18px;
+}

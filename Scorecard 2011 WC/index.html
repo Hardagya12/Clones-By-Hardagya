@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .outer-container {
+        background-image: url(./cricpro-bg.png);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 10px 20px;
+        position: absolute;
+        right: 0;
+    }
+
+    .heading {
+        font-size: 4em;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 20px;
+    }
+
+    .uppercontainer {
+        padding: 10px 25px;
+    }
+
+    .uppercontainer span {
+        font-size: 1.2em;
+        color: gray;
+        font-weight: bolder;
+    }
+
+    table {
+        width: 73.8%;
+        background-color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .uppertablecaption {
+        display: flex;
+        justify-content: space-between;
+        background-color: #F05136;
+        width: 70%;
+        font-size: 1.2em;
+        font-weight: bolder;
+        padding: 10px 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: start;
+        background-color: white;
+        border-bottom: 1px solid rgb(192, 192, 192);
+    }
+
+    tr {
+        border-bottom: 1px solid black;
+    }
+
+    .font-blue {
+        color: blue;
+    }
+
+    .font-gray {
+        color: rgb(91, 91, 91);
+    }
+    .table-data-container{
+        padding-left: 50px;
+        margin-top: 25px;
+    }
+</style>
+
+<body>
+
+    <div class="outer-container">
+
+        <div class="logo-container">
+            <img src="./cricpro-logo.png"
+                alt="">
+        </div>
+
+        <div class="uppercontainer">
+            <h1 class="heading">
+                ICC WORLD CUP 2011
+            </h1>
+            <span>India Vs SriLanka ScoreCard</span>
+        </div>
+
+        <div class="table-data-container">
+
+            <table>
+                <div class="uppertablecaption">
+                    <span>India Innings</span>
+                    <span>277-4(48.2)</span>
+                </div>
+                <tr>
+                    <th>Batsman</th>
+                    <th></th>
+                    <th>R</th>
+                    <th>B</th>
+                    <th>4s</th>
+                    <th>6s</th>
+                    <th>SR</th>
+                </tr>
+                <tr>
+                    <td class="font-blue">Virender Sehwag</td>
+                    <td class="font-gray">Ibw b L Malinga</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td class="font-blue">Sachin Tandulkar</td>
+                    <td class="font-gray">C K Sangakkara b L Malinga</td>
+                    <td>18</td>
+                    <td>14</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>128.57</td>
+                </tr>
+                <tr>
+                    <td class="font-blue">Gautam Gambhir</td>
+                    <td class="font-gray">b T Perera</td>
+                    <td>97</td>
+                    <td>122</td>
+                    <td>9</td>
+                    <td>0</td>
+                    <td>79.51</td>
+                </tr>
+                <tr>
+                    <td class="font-blue">Virat Kohli</td>
+                    <td class="font-gray">c & b T Dilshan</td>
+                    <td>35</td>
+                    <td>49</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>71.43</td>
+                </tr>
+                <tr>
+                    <td class="font-blue">MS Dhoni</td>
+                    <td class="font-gray">not <output>91</output></td>
+                    <td>91</td>
+                    <td>79</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>115.19</td>
+                </tr>
+                <tr>
+                    <td class="font-blue">Yuvraj Singh</td>
+                    <td class="font-gray">not out</td>
+                    <td>21</td>
+                    <td>24</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>87.50</td>
+                </tr>
+                <tr>
+                    <td>Extra</td>
+                    <td></td>
+                    <td colspan="4">15 (b 1, Ib 6, w 8, nb 0, p0)</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td></td>
+                    <td colspan="4">277 (4 wkts, 48.2 Ov)</td>
+                </tr>
+                <tr>
+                    <td>Did not bat</td>
+                    <td class="font-blue">Suresh Raina, Harbhajan Singh, Zaheer Khan, Munaf Patel, S Sreesanth</td>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
